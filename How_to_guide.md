@@ -24,7 +24,7 @@ Follow any further instructions e.g. entering your password, etc.
 
 You should see the following output:
 
-![Successful accessing of AWS EC2 instance](Github\aws_ec2_instance_success.png)
+![Successful accessing of AWS EC2 instance](Github/aws_ec2_instance_success.png)
 
   - To write code on your local pc using a Jupyter notebook that is hosted on an AWS EC2 instance, you need to do the following in the Git shell:
     - jupyter notebook --no-browser --ip=0.0.0.0 --port=8888
