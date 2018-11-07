@@ -3,14 +3,13 @@ How to run a Jupyter notebook on AWS
 
 In this document I detail the process I followed to run a Jupyter Notebook, task on an AWS EC2 instance.  Not all steps are described in detail, it will be done in due time.
 
-  - Navigate to https://aws.amazon.com/
-  
-  ![AWS login page](https://aws.amazon.com/)
+  - Navigate to [AWS login page](https://aws.amazon.com/)
+
  
  - Click on Sign In to the Console
 
 
-Create and/or Launch your instance https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html
+Create and/or Launch your instance [AWS EC2 Management Console](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html)
 
 
 
@@ -31,7 +30,7 @@ You should see the following output:
 
 If successful, you should see the following output:
 
-![Get URL to open Jupyter notebook in local web browser](jupyter_notebook_url.png)
+![Get URL to open Jupyter notebook in local web browser](Github/jupyter_notebook_url.png)
 
 
 Copy the URL
@@ -46,7 +45,7 @@ Your URL should look as follows:
 
 Paste the URL in the web browser of your choice, if successful, you should see the following:
 
-![Jupyter notebook successfully running on AWS EC2](jupyter_notebook_on_aws.jpg)
+![Jupyter notebook successfully running on AWS EC2](Github/jupyter_notebook_on_aws.jpg)
 
 
 **MANAGING FILES** 
